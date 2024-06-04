@@ -1,8 +1,33 @@
-# React + Vite
+- Node.js and npm should be installed on your system.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#### Step 1: Clone the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open a terminal and run the following command to clone this project:
+```bash
+git clone https://github.com/shyamkrishnanpr/tailwebsFrontend.git
+ 
+```
+#### Step 2: Navigate to the Project Directory
+
+Navigate to the  directory within the cloned project using the command:
+```bash
+cd tailwebsFrontend
+ 
+```
+#### Step 3: Install Dependencies
+
+Run the following command to install the required packages locally for the project.
+```bash
+  npm install
+ 
+```
+
+#### Step 4: Start the Frontend Server
+
+Run the following command to start the React frontend server.
+
+```bash
+  npm run dev
+ 
+```
