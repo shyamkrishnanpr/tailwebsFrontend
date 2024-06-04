@@ -67,6 +67,14 @@ const AddStudentModal = ({ open, handleClose, addStudent }) => {
         <TextField
           margin="normal"
           fullWidth
+          label="Name"
+          name="name"
+          value={student.name}
+          onChange={handleChange}
+        />
+        <TextField
+          margin="normal"
+          fullWidth
           label="Subject"
           name="subject"
           value={student.subject}
