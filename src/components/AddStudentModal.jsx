@@ -64,14 +64,14 @@ const AddStudentModal = ({ open, handleClose, addStudent }) => {
           value={student.name}
           onChange={handleChange}
         />
-        <TextField
+        {/* <TextField
           margin="normal"
           fullWidth
           label="Name"
           name="name"
           value={student.name}
           onChange={handleChange}
-        />
+        /> */}
         <TextField
           margin="normal"
           fullWidth
